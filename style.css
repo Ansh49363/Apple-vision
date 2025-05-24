@@ -1073,11 +1073,11 @@ ul {
     color: #333;
 }
 
-.footer-note>p>a{
+.footer-note>p>a {
     color: rgb(0, 102, 204);
 }
 
-.footer-last{
+.footer-last {
     /* border-top: 1px solid #3a3a3c; */
     display: flex;
     align-items: center;
@@ -1104,4 +1104,175 @@ ul {
 .footer-note .region {
     margin-top: 10px;
     color: #333;
+}
+
+/* === Responsive CSS === */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    #page>nav {
+        width: 90vw;
+    }
+
+    #page>video {
+        width: 100%;
+    }
+
+    #page-bottom {
+        width: 60%;
+    }
+
+    #page1>h1,
+    #page2>h1 {
+        font-size: 6vw;
+    }
+
+    #left5>h1,
+    #right5>h1 {
+        font-size: 4vw;
+    }
+
+    #right5>button {
+        font-size: 2vw;
+    }
+
+    #page6>h1 {
+        font-size: 6vw;
+    }
+
+    #page6>h3 {
+        font-size: 3vw;
+    }
+
+    #page6>p {
+        font-size: 2vw;
+    }
+
+    .cps>h1,
+    .cpsr>h1 {
+        font-size: 2vw;
+        width: 30%;
+    }
+
+    #page16>h2 {
+        font-size: 2vw;
+        width: 70%;
+    }
+
+    #page16>button {
+        font-size: 2vw;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    #page>nav {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        width: 90vw;
+        padding: 10px 0;
+    }
+
+    #page-bottom {
+        width: 80%;
+    }
+
+    #page1>h1,
+    #page2>h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    #left5,
+    #right5 {
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+
+    #left5>h1,
+    #right5>h1 {
+        font-size: 5vw;
+        position: static;
+    }
+
+    #right5>button {
+        font-size: 3vw;
+        position: static;
+        margin-top: 20px;
+    }
+
+    #page6>h1 {
+        font-size: 7vw;
+    }
+
+    #page6>h3 {
+        font-size: 4vw;
+    }
+
+    #page6>p {
+        font-size: 3vw;
+    }
+
+    .cps>h1,
+    .cpsr>h1 {
+        font-size: 3vw;
+        width: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #page14 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left14,
+    .right14 {
+        width: 90%;
+        height: 45%;
+    }
+
+    #page16>h2 {
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    #page16>button {
+        font-size: 3vw;
+    }
+
+    #page17>h1 {
+        font-size: 8vw;
+    }
+
+    #page17>p {
+        font-size: 3vw;
+        width: 80%;
+    }
+
+    #page26>h1 {
+        font-size: 6vw;
+        width: 90%;
+    }
+
+    #page26>p {
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    #page27>h1 {
+        font-size: 9vw;
+        width: 90%;
+    }
+
+    #page27>p {
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    #page27>button {
+        font-size: 4vw;
+    }
 }
