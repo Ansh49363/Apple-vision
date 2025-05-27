@@ -850,8 +850,9 @@ body {
 
 .right28>img {
     position: absolute;
-    height: 80%;
-    bottom: 0%;
+    height: 72%;
+    bottom: 15%;
+    width: 45%;
 }
 
 #page29 {
@@ -958,13 +959,13 @@ body {
     align-items: center;
     text-align: center;
     position: relative;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: #f6f6f6;
 }
 
 #page31-center {
-    width: 80%;
+    width: 88%;
     margin: 0% auto;
     text-align: start;
     box-sizing: border-box;
@@ -1111,7 +1112,7 @@ ul {
 /* === Responsive CSS === */
 
 /* Tablets */
-/* @media (max-width: 1024px) {
+ @media (max-width: 1024px) {
     #page>nav {
         width: 90vw;
     }
@@ -1163,6 +1164,10 @@ ul {
 
     #page16>button {
         font-size: 2vw;
+    }
+
+    #right28>img{
+        width: 45%;
     }
 }
 
@@ -1508,7 +1513,7 @@ ul {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        margin: 5%;
+        margin: 2%;
     }
 
     .last-heading img {
